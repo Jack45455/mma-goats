@@ -1,0 +1,14 @@
+{
+  "name": "mma-goats",
+  "version": "1.0.0",
+  "description": "MMA infomation ",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ecstatic"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^4.1.2"
+  }
+}
