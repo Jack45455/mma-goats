@@ -12,3 +12,15 @@ npm run serve
 
 Now you can open the website on http://localhost:8000
 
+### Push site live to github
+
+First - open the terminal (View -> Terminal).
+
+Type the following:
+
+```bash
+git add -A
+git commit -m "my latest changes"
+git push origin master
+```
+

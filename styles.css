@@ -1,0 +1,59 @@
+body {
+  background-color:white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+h2 {
+  background-color:#8ebf42;
+}
+
+#content {
+  margin-top: 30px;
+}
+
+#menu {
+  width: 200%;
+  height: 30px;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
+
+#menu .menu_link {
+  font-weight: bold;
+}
+
+.upcoming-fight-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+
+.upcoming-fight-container .fight-title {
+  font-weight: bold;
+  font-size: medium;  
+}
+
+.upcoming-fight-container .fight-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.upcoming-fight-container .fight-img {
+  flex-grow: 0;
+}
+
+.upcoming-fight-container .fight-img img {
+  width: 200px;
+}
+
+.upcoming-fight-container .fight-description {
+  flex-grow: 1;
+}
+

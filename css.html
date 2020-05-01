@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <!--
+      there are 3 types of CSS rule:
+
+      element rule
+      ------------
+
+      This matches based on the element type - e.g.:
+
+      p {
+        color: red;
+      }
+
+      <p>This is some text</p>
+
+      the above text will be red
+
+      id rule
+      -------
+
+      This matches based on the "id" attribute of the element - e.g.:
+
+      #apples {
+        color: red;
+      }
+
+      <p id="apples">This is some text</p>
+
+      the above text will be red
+
+      class rule
+      ----------
+
+      This matches based on the "class" attribute of the element - e.g.:
+
+      .apples {
+        color: red;
+      }
+
+      <p class="apples">This is some text</p>
+
+      the above text will be red
+
+
+    -->
+    <style>
+      p {
+        color:#666666;
+        text-align: center;
+      }
+      .activateColors .redPaintBucket {
+        color: red;
+      }
+      .activateColors .yellowPaintBucket {
+        color: yellow;
+      }
+      .activateColors .greenPaintBucket {
+        color: green;
+      }
+      #main_heading {
+        background-color: #ccffcc;
+      }
+      .body_text {
+        background-color: #ffcccc;
+      }
+      .different_class {
+        background-color: #ccccff;
+        padding: 20px;
+        border: 1px solid #000000; 
+        margin: 20px;
+      }
+      .menuItem {
+        padding: 10px;
+        border: 1px solid #ff0000;
+        background-color: #ffcccc;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="main_heading">Hello World</p>
+    <p class="body_text">This is my story about how Boris is a twat</p>
+    <p class="body_text">The world is a large sphere</p>
+    <p class="different_class">I like oranges</p>
+    <div>
+      <a href="http://google.com" class="different_class">Click here</a>
+    </div>
+    <div>
+      <p>These will all stay grey:</p>
+      <p class="redPaintBucket">RED</p>
+      <p class="yellowPaintBucket">YELLOW</p>
+      <p class="greenPaintBucket">GREEN</p>
+    </div>
+    <div class="activateColors">
+      <p>These will all be their own color:</p>
+      <p class="redPaintBucket">RED</p>
+      <p class="yellowPaintBucket">YELLOW</p>
+      <p class="greenPaintBucket">GREEN</p>
+    </div>
+
+    <div>
+      <p class="menuItem">Menu item 1</p>
+      <p class="menuItem">Menu item 2</p>
+      <p class="menuItem">Menu item 3</p>
+    </div>
+
+  </body>
+</html>
+
+
