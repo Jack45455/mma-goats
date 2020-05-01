@@ -19,6 +19,7 @@ First - open the terminal (View -> Terminal).
 Type the following:
 
 ```bash
+git status
 git add -A
 git commit -m "my latest changes"
 git push origin master
