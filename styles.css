@@ -1,3 +1,6 @@
+/* upcoming fights */
+
+
 body {
   background-color:white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,19 +33,21 @@ h2 {
 }
 
 .upcoming-fight-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #000000;
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid blue;
 }
 
 .upcoming-fight-container .fight-title {
-  font-weight: bold;
-  font-size: medium;  
+  font-weight: 900;
+  font-size: xx-large;  
 }
 
 .upcoming-fight-container .fight-row {
   display: flex;
   flex-direction: row;
+  font-family: Impact, sans-serif;
+  color: blue;
 }
 
 .upcoming-fight-container .fight-img {
@@ -55,5 +60,35 @@ h2 {
 
 .upcoming-fight-container .fight-description {
   flex-grow: 1;
+  font-size: larger;
 }
+
+.main-title {
+font-family: red serif;
+font-size: x-large;
+text-decoration-line: underline;
+}
+
+.main-opinion-warning {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: x-large;
+  color: tomato;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid red;
+}
+
+.fight-description {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: x-large;
+  color: tomato;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid red;
+}
+
+
+/* fight reviews */
+
+
 
