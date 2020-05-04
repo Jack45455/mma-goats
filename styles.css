@@ -1,3 +1,73 @@
+/* Home */
+
+.UFC-GOAT {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+
+.fighters{
+  font-family: red serif;
+  font-size: x-large;
+  text-decoration-line: underline;
+}
+
+
+.Kamuru-Usman{
+  color: green;
+}
+
+.Georges-St-Pierre{
+  color: red;
+}
+
+.conor-mcgregor{
+  color: #8ebf42;
+}
+
+.jon-jones{
+  color: #000000;
+}
+
+.daniel-cormier{
+  color: grey;
+}
+
+.khabib-nurmagomedov{
+  color: red
+}
+
+.yoel-romero {
+  color: blue;
+}
+
+.israel-adesanya{
+  color: green;
+}
+
+.Royce-Gracie{
+  color: #8ebf42;
+}
+
+.chuck-liddell {
+  color: aqua;
+}
+
+.chael-sonnen{
+  color: #000000;
+}
+
+
+/* Fight Reviews */
+
+
+/* .something {
+
+} */
+
+
 /* upcoming fights */
 
 
@@ -86,9 +156,5 @@ text-decoration-line: underline;
   padding: 50px;
   border: 3px solid red;
 }
-
-
-/* fight reviews */
-
 
 
