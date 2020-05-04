@@ -9,7 +9,7 @@
 
 
 .fighters{
-  font-family: red serif;
+  font-family: fantasy;
   font-size: x-large;
   text-decoration-line: underline;
 }
@@ -28,11 +28,11 @@
 }
 
 .jon-jones{
-  color: #000000;
+  color: darkgoldenrod;
 }
 
 .daniel-cormier{
-  color: grey;
+  color: darkseagreen;
 }
 
 .khabib-nurmagomedov{
@@ -44,7 +44,7 @@
 }
 
 .israel-adesanya{
-  color: green;
+  color: greenyellow
 }
 
 .Royce-Gracie{
@@ -59,13 +59,47 @@
   color: #000000;
 }
 
-
+.anderson-silva{
+  color: yellow;
+}
 /* Fight Reviews */
 
 
-/* .something {
+ .fight-review {
+  font-family: fantasy;
+  font-size: x-large;
+  text-decoration-line: underline;
+ }
 
-} */
+
+ .Connor-vs-Nate-2 {
+   color: yellowgreen;
+}
+
+
+.Whittaker-vs-Romero-2 {
+   color: blue;
+}
+
+
+.Costa-vs-Romero {
+  color: red;
+}
+
+
+.Jones-vs-Gustuffson {
+   color: yellow;
+}
+
+
+.Mcgregor-vs-Alvarez {
+   color: black;
+}
+
+
+.Diaz-vs-Johnson {
+   color: tomato;
+}
 
 
 /* upcoming fights */
