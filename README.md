@@ -25,3 +25,13 @@ git commit -m "my latest changes"
 git push origin master
 ```
 
+### checklist
+
+- Fix most shit
+- Fix CSS headings 
+- Fix CSS stuff in general
+- Add underrated fighters/fights section
+- Add ultra-violent belligerence section
+- Think of a better name than that bullshit
+
+There's always more to fix/add but this is an ok start... 
