@@ -25,7 +25,7 @@ git commit -m "my latest changes"
 git push origin master
 ```
 
-### checklist
+### Checklist
 
 - Fix most shit
 - Fix CSS headings 
