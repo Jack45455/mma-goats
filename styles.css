@@ -89,18 +89,19 @@
 
  .fight-review {
   font-family: fantasy;
-  font-size: x-large;
+  font-size: xx-large;
+  font-size-adjust: initial;
   text-decoration-line: underline;
  }
 
 
  .Connor-vs-Nate-2 {
-   color: yellowgreen;
+  color: yellowgreen;
 }
 
 
 .Whittaker-vs-Romero-2 {
-   color: blue;
+  color: blue;
 }
 
 
@@ -110,17 +111,17 @@
 
 
 .Jones-vs-Gustuffson {
-   color: yellow;
+  color: yellow;
 }
 
 
 .Mcgregor-vs-Alvarez {
-   color: black;
+  color: black;
 }
 
 
 .Diaz-vs-Johnson {
-   color: tomato;
+  color: tomato;
 }
 
 
@@ -166,11 +167,11 @@ text-decoration-line: underline;
 
 .main-opinion-warning {
   font-family: "Lucida Console", Courier, monospace;
-  font-size: x-large;
+  font-size: large;
   color: tomato;
-  margin: 50px;
-  padding: 50px;
-  border: 3px solid red;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid red;
 }
 
 .fight-description {
@@ -185,29 +186,4 @@ text-decoration-line: underline;
 
 /* MMA News/Stuff */
 
-#content {
-  margin-top: 30px;
-}
-
-#menu {
-  width: 200%;
-  height: 30px;
-  background-color: #e5e5e5;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  flex-direction: row;
-  border-bottom: 1px solid #000000;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
-}
-
-#menu .menu_link {
-  font-weight: bold;
-}
-
-#menu {   
-  margin: 150px;
-  padding: 150px;
-  border: 6px solid blue;
-  }
+.mma-news-intro
