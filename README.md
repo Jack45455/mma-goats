@@ -31,7 +31,8 @@ git push origin master
 - Fix CSS headings 
 - Fix CSS stuff in general
 - Add underrated fighters/fights section
-- Add ultra-violent belligerence section
+- Add "violent" section
 - Think of a better name than that bullshit
+- Add MMA NEWS/POTENTIAL FIGHTS
 
 There's always more to fix/add but this is an ok start... 

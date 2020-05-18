@@ -183,3 +183,31 @@ text-decoration-line: underline;
 }
 
 
+/* MMA News/Stuff */
+
+#content {
+  margin-top: 30px;
+}
+
+#menu {
+  width: 200%;
+  height: 30px;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000000;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
+
+#menu .menu_link {
+  font-weight: bold;
+}
+
+#menu {   
+  margin: 150px;
+  padding: 150px;
+  border: 6px solid blue;
+  }
