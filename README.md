@@ -34,5 +34,6 @@ git push origin master
 - Add "violent" section
 - Think of a better name than that bullshit
 - Add MMA NEWS/POTENTIAL FIGHTS
+- !!!!!!!!!!!!!!FIX THE FUCKIN MMA NEWS SECTION!!!!!!!!!!!!!!!!!
 
 There's always more to fix/add but this is an ok start... 
