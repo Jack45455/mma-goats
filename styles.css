@@ -192,6 +192,18 @@ text-decoration-line: underline;
 }
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MMA News/Stuff 
+/* MMA News/Stuff */
 
-.mma-news-intro !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.mma-news-intro {
+  font-family: red serif;
+  font-size: x-large;
+  font-style: oblique;
+}
+
+.welterweight-mma-news .fight-info{
+ color: chartreuse;
+ font-size: x-large;
+ font-style: oblique;
+   }
+
+
