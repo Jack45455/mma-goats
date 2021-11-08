@@ -32,6 +32,14 @@
   min-width: min-content;
 }
 
+.text-box{
+  border: 1px solid rgb(9, 0, 128) ;
+}
+
+.text-fight-link{
+  border: 1px solid rgb(131, 12, 12) ;
+}
+
 .fighter-summary{
   font-family: "Lucida Console", Courier, monospace;
   font-size: large;
@@ -263,7 +271,7 @@ text-decoration-line: underline;
 /* MMA News/Stuff */
 
 .backround-credit{
-  color: chartreuse;
+  color: black;
   font-size: x-large;
   font-style: oblique;
   font-family: 'Zen Antique Soft', serif;
