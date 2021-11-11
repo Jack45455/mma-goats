@@ -1,10 +1,118 @@
-/* Home */
+    /* STUFFF FROM MEDICINE PATH */
+    /* Main Elements */
 
-#content{
-  margin-top: 30px;
+    
+.root-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-#menu{
+.content-container{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+}
+.menu{
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu .menu_link {
+  font-weight: bold;
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu_link {
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.menu{
+  font-weight: bold;
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*
+.menu_link {
+  background-color: cadetblue;
+  height: 100%;
+  flex-grow: 1;
+}
+*/
+
+.menu_link{
+background-color: rgb(34, 248, 6);
+  height: 100%;
+  flex-grow: 1;
+}
+
+.widget-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex;
+  align-items: center;
+  background-image: -moz-element(backround photos\ufc backround.jpg);
+}
+
+
+
+
+.footer{
+  background-color: red;
+  height: 100px;
+}
+
+.sidebar{
+  background-color: burlywood;
+  width: 200px;
+  height: 100%;
+}
+
+
+
+
+
+/* Medicine Path */
+
+#medicine path {
   width: 100%;
   height: 30px;
   background-color: #e5e5e5;
@@ -17,8 +125,186 @@
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
 }
 
-#menu .menu_link {
+#medicine-path .medicine-path_link {
   font-weight: bold;
+}
+
+.medicine-path-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+.medicine-path-description {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: x-large;
+  color:black;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid red;
+}
+
+.medicine-path-image {
+  flex: inherit;
+}
+
+.medicine-path-menu-link {
+  flex: unset;
+}
+
+.medicine-path-slideshow{
+
+}
+
+
+/* Medicine Wheel */ 
+
+.medicine-wheel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+.medicine-wheel-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+.medicine-wheel-description {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: x-large;
+  color:black;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid red;
+}
+
+.medicine-wheel-image {
+  flex: inherit;
+}
+
+.medicine-wheel-menu-link {
+  flex: unset;
+}
+
+/* Foundation rights */
+
+.foundation-rights {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+.foundation-rights-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large ;
+  text-decoration-line: underline;
+  color: red;
+}
+
+.foundation-rights-description {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: x-large;
+  color:black;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid red;
+}
+
+.foundation-rights-image {
+  flex: inherit;
+}
+
+.foundation-rights-menu-link {
+  flex: unset;
+}
+    
+*/
+    /* Home */
+
+
+
+
+.container {
+  background-image: url("backround photos\ufc backround.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  border: 2px dashed #333;
+  background-size: 100% auto;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#content{
+  margin-top: 30px;
+}
+
+.menu{
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu .menu_link {
+  font-weight: bold;
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.menu_link {
+  width: 100%;
+  height: 30px;
+  background-color: #fc0808;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #0b1bf8;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 .UFC-GOAT{
