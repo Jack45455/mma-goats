@@ -616,6 +616,7 @@
   margin: 50px;
   padding: 50px;
   border: 3px solid red;
+  font-style: oblique;
 } 
 
 .fr-images > img {
