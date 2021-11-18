@@ -3,16 +3,269 @@
 
      /* 
      to do css:
-      - background-image
-      -
-      -
-      -
+      -  background-image
+      - BETTER LAYOUT FUCKHEAD
+      - obvious flaws
+      - get high
       -
       -
       -
       -
       -
 
+      html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #e5e5ff;
+}
+
+/* TOPBAR */
+/-* 
+
+.topbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), 
+    url('../images/topbar.jpg'); */
+  background-image: url('../images/topbar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #444;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-container {
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.2);
+  font-size: 48px;
+  border-radius: 20px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.topbar-filler {
+  flex-grow: 1;
+}
+
+.menu-container {
+  flex-grow: 0;
+  margin: 20px;
+  position: fixed;
+}
+
+.menu {
+  margin-right: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+
+.menu .menu_link {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.menu-bar-headings{ 
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: larger;
+}
+
+.footer {
+  flex-direction: row;
+  justify-content: center;
+  /*width: 100%;*/
+  text-align: center;
+}
+
+/* HOMPAGE */
+
+.slideshow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.slideshow-image {
+  height: 400px;
+  display:none;
+  border: 1px solid #999;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.content-padding {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+
+.content {
+  border: 1px solid #999;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #fff;
+  padding: 40px;
+}
+
+.content-text {
+  font-family: 'Rowdies', cursive;
+  font-size: larger;
+  word-spacing: 6px;
+}
+
+.medicine-wheel {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.medicine-wheel img {
+  cursor: pointer;
+}
+
+.medicine-wheel-text {
+  padding-bottom: 400px;
+}
+
+.medicine-wheel-text img {
+  width: 300px;
+}
+
+.medicine-wheel-text hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+
+/* MEDICINE WHEEL CONTENT STUFF */
+
+
+/* INDIVIDUAL HEALING CONTENT STUFF */
+
+
+/* MEDICINE CIRCLES CONTENT STUFF */
+
+
+/* CONTACT CONTENT STUFF */
+
+
+.postit {
+  line-height: 1;
+  text-align:center;     
+  width: 250px;      
+  height:150px;
+  padding: 20px;
+  float: left;
+  border:1px solid #E8E8E8;  
+  border-top:60px solid #fdfd86;
+  font-family:'Reenie Beanie';    
+  font-size:32px;      
+  font-weight: bold;
+  border-bottom-right-radius: 60px 5px;
+  background: #ffff88;
+}
+
+.postit_reference {
+  line-height: 1;
+  text-align:center;     
+  width: 150px;    
+  margin: 25px;    
+  min-height:150px;
+  max-height:150px;
+  padding-top:35px;
+  position:relative;   
+  border:1px solid #E8E8E8;  
+  border-top:60px solid #fdfd86;
+  font-family:'Reenie Beanie';    
+  font-size:22px;      
+  border-bottom-right-radius: 60px 5px;
+  display:inline-block;    
+   background: #ffff88; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffff88 81%, #ffff88 82%, #ffff88 82%, #ffffc6 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(81%,#ffff88), color-stop(82%,#ffff88), color-stop(82%,#ffff88), color-stop(100%,#ffffc6)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* IE10+ */
+background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffffc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.postit_reference:after {     
+   content: "";
+  position:absolute;
+  z-index:-1;
+  right:-0px; bottom:20px;
+  width:200px;
+  height: 25px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+-moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+ -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+      -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+     -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+         transform: matrix(-1, -0.1, 0, 1, 0, 0);
+}
+
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main-container .side-menu-container {
+  flex-grow: 0;
+  width: 250px;
+}
+
+.main-container .main-content-container {
+  flex-grow: 1;
+}
+
+.headline-image {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+*/
+
+.headline-image img {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #000;
+  box-shadow:2px 15px 5px rgba(0, 0, 0, 0.40);
+}
      */
 .root-container{
   width: 100%;
