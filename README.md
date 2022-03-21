@@ -27,13 +27,10 @@ git push origin master
 
 ### Checklist
 
-- Fix most shit
+- Fix most 
 - Fix CSS headings 
-- Fix CSS stuff in general
-- Add underrated fighters/fights section
-- Add "violent" section
-- Think of a better name than that bullshit
-- Add MMA NEWS/POTENTIAL FIGHTS
-- !!!!!!!!!!!!!!FIX THE FUCKIN MMA NEWS SECTION!!!!!!!!!!!!!!!!!
+- Change MMA NEWS/POTENTIAL FIGHTS
+- Keep adding to MMA app  
+- Make JS work better lol
 
 There's always more to fix/add but this is an ok start... 
